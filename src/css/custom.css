@@ -1,0 +1,29 @@
+
+html,body(font-family: 'Open Sans', sans-serif !important;)
+
+.logo{float: left}
+nav{float: right;}
+nav > ul > li{display:inline-block;}
+nav > ul > li > a{display: block; padding:10px 15px; font-size:16px;color:#fff; font-weight:bold;}
+header{background:#2485eb; padding:10px 30px;}
+
+.navbar-brand img {
+    max-width:186px;
+}
+.navbar-brand{height:auto !important;padding: 0px !important;}
+
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #2485eb;
+    border-color: #2485eb;
+}
+
+.panel-body figure {
+    height: 131px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.panel.panel-default.panel-pet{transition:0.3s}
+.panel.panel-default.panel-pet:hover img {transform:scale(1.1);transition:0.3s}
+
